@@ -1,0 +1,116 @@
+*{
+    font-family:cairo;
+}
+html{
+        --bg-body: #ecebeb;
+        --bg-content: #ffffff;
+        --bg-hover: #f4f4f4;
+        --color-txt: #172b4d;
+        --nav-height: 70px;
+        --shadow: 0 20px 20px 0 rgba(151, 151, 155, 0.8);  
+
+    }
+html[theme="dark"]{
+        --bg-body: #151515;
+        --bg-content: #242526;
+        --bg-hover: #151f28;
+    
+        --color-txt: #dcdcdc;
+    
+}
+body{
+    position: relative;
+    background-color: var(--bg-body);
+}
+
+.header{
+    background-color:var(--bg-content);
+    width:100%;
+    min-height:50px;
+    position: sticky;
+    top: 0 ;
+    z-index: 9;
+    color: rgb(45, 90, 214);
+}
+
+
+.chart-data{
+    width: 400px;
+}
+
+.covidCase{
+    color: rgb(247, 2, 2);
+}
+.recoverCase{
+    color: green;
+}
+.deathCase{  
+    color: gray;
+}
+.boxDecoration{
+    border-radius: 5px;
+    background-color: var(--bg-content);
+    transition: 0.2s ease-out;
+}
+.boxDecoration:hover{
+    transform: scale(1.1);
+    box-shadow: var(--shadow)
+}
+
+#table{    
+    max-height: 500px;
+    border-collapse: collapse;
+    display: block;
+    overflow: scroll;
+}   
+th{
+    font-size: 20px;
+    position: sticky;
+    top:0;
+    background-color: rgb(116, 248, 83);
+}
+th,td {
+    font-family: cariro;
+    padding: 8px;
+    font-weight: 30px;
+}
+tr{
+    transition: 0.1s ease-in;
+}
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.whatIsCovid{
+    background-color: var(--bg-content);
+}
+.videoCovid19{
+    background-color: var(--bg-content);
+}
+.howToProtect{
+    background-color: var(--bg-content);
+}
+
+.loader-wrapper {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    background-color: white;
+}
+
+.margin-Top{
+    margin-top: 15px;
+}
+@media (max-width:740px){
+    #table{
+        max-height: 350px;
+        max-width: 450px;
+    }
+
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="f8.css">
+    <link rel="stylesheet" href="covid19.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&amp;display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="loader-wrapper center">
+     <div class="loader"> <box-icon name='virus' type='solid' animation='spin' size="150px" color="red" ></box-icon></div>
+</div>
+<div class="header">
+        <h1>C<box-icon name='virus-block' type='solid' animation='tada' color="red" ></box-icon></box-icon>VID VN</h1>
+</div>
+ 
+
+<div class="grid">
+      <div class="row">
+            <div class="col l-4 m-12 c-12">
+                <div  class="covidCase center boxDecoration margin-Top">
+                    <h2>INFECTED CASE</h2>
+                    <h1 id="infect"></h1>
+                </div>
+            </div>
+                
+           
+           <div class="col l-4 m-12 c-12">
+                <div class="recoverCase center boxDecoration margin-Top">
+                    <h2>RECOVERED CASE</h2>
+                    <h1 id="recover"></h1>
+                </div>
+           </div>
+           
+           <div class="col l-4 m-12 c-12">
+                <div  class="deathCase center boxDecoration margin-Top">
+                    <h2>DEATH CASE</h2>
+                
+                     <h1 id="dead"></h1>
+                </div>
+            </div>
+        
+        
+           <div class="col l-6 m-7 c-12 ">
+             <div class="center margin-Top">
+                <div id="map"></div>
+             </div>
+            </div>
+                
+            <div class="col l-6 m-6 c-12 ">
+                <div class="center">
+                    <table id="table" class="margin-Top " >
+                        <tr>
+                            <th>City</th>
+                            <th>Total Cases</th>
+                            <th>Recovered</th>
+                            <th>Total Deaths</th>
+                        </tr>
+                        </table>
+                </div>   
+            </div>
+            
+           
+       
+       
+       
+        <div class="col l-4 m-4 c-12 center ">
+            <div class="chart-data margin-Top "> 
+                <canvas id="infectChart"></canvas>
+            </div>
+        </div> 
+          
+        <div class="col l-4 m-6 c-12 center ">
+        <div class="chart-data margin-Top ">
+                <canvas id="recoverChart"></canvas>
+            </div>
+        </div>   
+         
+        <div class="col l-4 m-6 c-12 center">
+            <div class="chart-data margin-Top " >
+                <canvas id="deadChart"></canvas>
+            </div>
+        </div> 
+        
+       
+        
+    <div class="col l-6 m-6 c-12">
+        <div class="videoCovid19 margin-Top center ">
+                <h2>What is Covid</h2>
+                <iframe width="400" height="300"
+                    src="https://www.youtube.com/embed/RdWRmGxb_38">
+                </iframe>
+        </div>    
+    </div>  
+        
+        <div class="col l-6 m-6 c-12 "> 
+            <div class=" howToProtect center margin-Top ">
+                <h2>How to protect your self</h2>
+                <iframe width="400" height="300"
+                    src="https://www.youtube.com/embed/DCdxsnRF1Fk">
+                </iframe>
+            </div>
+        </div>  
+
+    
+    
+        </div>
+</div>
+
+
+
+
+</div>
+</div>
+     <!-- === SCRIPT CHART JS === -->
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="covid.js"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="mapdata.js"></script>
+    <script src="countrymap.js"></script>
+    
+
+</body>
+</html>
