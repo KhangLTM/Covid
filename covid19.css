@@ -112,13 +112,13 @@ tr:hover{
         max-height: 350px;
         max-width: 380px;
     }
-   
     #infectChart{
         width:280px;
     }
     #deadChart{
-        width:280x
-    };
+        width:280x;
+    }
+    
     #recoverChart{
     width: 280px;
     }   
