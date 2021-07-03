@@ -107,8 +107,7 @@ tr:hover{
 .margin-Top{
     margin-top: 30px;
 }
-@media
- (max-width:813px){
+@media (max-width:813px){
     #table{
         max-height: 350px;
         max-width: 380px;
