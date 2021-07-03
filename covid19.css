@@ -110,10 +110,10 @@ tr:hover{
 @media (max-width:850px){
     #table{
         max-height: 350px;
-        max-width: 380px;
+        max-width: 370px;
     }
     canvas{
-        width:380px !important;
+        width:350px !important;
     }
     .video{
         width: 350px;
