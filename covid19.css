@@ -112,10 +112,17 @@ tr:hover{
         max-height: 350px;
         max-width: 380px;
     }
+   
+    #infectChart{
+        width:280px;
+    }
+    #deadChart{
+        width:280x
+    };
     #recoverChart{
     width: 280px;
     }   
-
+    
     .video{
         width: 350px;
     }
@@ -123,8 +130,6 @@ tr:hover{
         transform: none;
         box-shadow: none;   
     }
-    .chartSize{
-        width:300px;
-    }
+    
 
 }
