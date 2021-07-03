@@ -2,6 +2,10 @@
     font-family:cairo;
 }
 html{
+    width: 110vw;
+    overflow-x: hidden;
+  }
+html{
         --bg-body: #ecebeb;
         --bg-content: #ffffff;
         --bg-hover: #f4f4f4;
