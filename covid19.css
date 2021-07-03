@@ -58,7 +58,7 @@ body{
 }
 
 #table{    
-    max-height: 400px;
+    max-height: 500px;
     border-collapse: collapse;
     display: block;
     overflow: scroll;
