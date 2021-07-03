@@ -67,7 +67,7 @@ th{
     font-size: 20px;
     position: sticky;
     top:0;
-    background-color: rgb(116, 248, 83);
+    background-color: rgb(55, 80, 224);
 }
 th,td {
     font-family: cariro;
@@ -107,22 +107,14 @@ tr:hover{
 .margin-Top{
     margin-top: 30px;
 }
-@media (max-width:900px){
+@media (max-width:850px){
     #table{
         max-height: 350px;
         max-width: 380px;
     }
-    #infectChart{
-        width:280px;
+    canvas{
+        width:380px !important;
     }
-    #deadChart{
-        width:280px;
-    }
-    
-    #recoverChart{
-    width: 280px;
-    }   
-    
     .video{
         width: 350px;
     }
