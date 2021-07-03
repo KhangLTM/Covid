@@ -138,7 +138,7 @@ async function ok(){
 ok()
 let windo=window.innerWidth;
 function resizeMap(){
-  if(windo < 740 ){
+  if(windo < 813 ){
     simplemaps_countrymap_mapdata.main_settings.width=300;
     
   } else {
