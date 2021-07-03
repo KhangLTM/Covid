@@ -136,15 +136,16 @@ async function ok(){
 }
 
 ok()
-
+let windo=window.innerWidth;
 function resizeMap(){
-  if(window.innerWidth < 740 ){
-    simplemaps_countrymap_mapdata.main_settings.width=350;
-    simplemaps_countrymap.refresh()
+  if(windo < 740 ){
+    simplemaps_countrymap_mapdata.main_settings.width=300;
+    
   } else {
     simplemaps_countrymap_mapdata.main_settings.width=500;
-    simplemaps_countrymap.refresh()
+   
   }
 }
+resizeMap();  
 
-window.onresize = resizeMap
+
