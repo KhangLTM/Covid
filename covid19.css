@@ -123,6 +123,8 @@ tr:hover{
         transform: none;
         box-shadow: none;   
     }
-
+    .chartSize{
+        width:300px;
+    }
 
 }
