@@ -36,7 +36,9 @@ body{
     z-index: 9;
     color: rgb(45, 90, 214);
 }
-
+.header h2{
+    margin-left:10px;
+}   
 
 .chart-data{
     width: 400px;
@@ -112,6 +114,10 @@ tr:hover{
     margin-top: 30px;
 }
 @media (max-width:813px){
+    html{
+        width:110wh;
+        overflow-x:hidden;
+    }
     #table{
         max-height: 350px;
         max-width: 380px;
